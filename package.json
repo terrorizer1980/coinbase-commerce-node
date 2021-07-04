@@ -29,7 +29,7 @@
   "dependencies": {
     "lodash": "4.17.19",
     "object-assign": "2.0.0",
-    "promise": "^8.0.1",
+    "promise": "^8.1.0",
     "request": "^2.88.2",
     "secure-compare": "^3.0.1"
   },
