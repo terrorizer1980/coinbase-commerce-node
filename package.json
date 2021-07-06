@@ -28,7 +28,7 @@
   "license": "MIT",
   "dependencies": {
     "lodash": "4.17.19",
-    "object-assign": "2.0.0",
+    "object-assign": "2.1.1",
     "promise": "^8.0.1",
     "request": "^2.88.2",
     "secure-compare": "^3.0.1"
