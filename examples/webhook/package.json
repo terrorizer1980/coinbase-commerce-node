@@ -1,14 +1,19 @@
 {
-    "name": "webhook-example-coinbase-commerce-node",
-    "version": "1.0.0",
-    "description": "Webhook verification for coinbase commerce",
-    "main": "webhook.js",
-    "scripts": {},
-    "author": "Coinbase",
-    "license": "MIT",
-    "dependencies": {
-        "body-parser": "^1.17.1",
-        "coinbase-commerce-node": "^1.0.1",
-        "express": "^4.15.2"
-    }
+  "name": "webhook-example-coinbase-commerce-node",
+  "version": "1.0.0",
+  "description": "Webhook verification for coinbase commerce",
+  "main": "webhook.js",
+  "scripts": {
+    "prepublish": "npm run snyk-protect",
+    "snyk-protect": "snyk-protect"
+  },
+  "author": "Coinbase",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.17.1",
+    "coinbase-commerce-node": "^1.0.1",
+    "express": "^4.15.2",
+    "@snyk/protect": "latest"
+  },
+  "snyk": true
 }
